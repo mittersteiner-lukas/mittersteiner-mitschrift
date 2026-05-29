@@ -7,4 +7,4 @@ Weitere bekannte Auszeichnungsprachen sind:
 - Extensible Markup Language (XML)
 - Yet Another Markup Language (YAML, YML)
 
-# Installation von Node.js
+# Installation von nodeJS
