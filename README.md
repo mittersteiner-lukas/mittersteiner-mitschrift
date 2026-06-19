@@ -16,7 +16,7 @@ Seit ca. 2010 gibt es eine Laufzeitumgebung (*Runtime Environment*) für JS, dam
 
 Der Standardmäßige *Package Manager* für Node.js ist `npm` (*Note package manager*). Eine etwas modernere und inzwischen beliebtere Variante ist [`pnpm`](https://pnpm.io/) (*Performant npm*).
 
-## Installation von Stra
+## Installation von Strapi
 
 Installation mit dem Skript `pnpm create strapi`. 
 Daraufhin führt das CLI (Command Line Interface) durch die Installation. 
