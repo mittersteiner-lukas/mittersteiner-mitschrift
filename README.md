@@ -25,3 +25,11 @@ Falls bei der Installation sogenannte build `build scripts` nicht ausgeführt we
 1. Welchsel in das Installationsverzeichnis (z.B. mit `cd` mittersteiner-strapi-project1)
 
 2. Neuerlicher Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Scripts müssen mit `pnpm approved-builds` manuell freigegeben werden.
+
+# VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
+
+VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View.
+Dort können alle Anpassungen der "_Coding Harness_" vorgenommen werden. Wir können unseren *Harmess* mit verschiedenen Methoden anpassen:
+
+- **MCP-Server**
+    MCP steht für *Model Context Protocoll*. Es ist ein Standard der von Antropic entwickelt wurde. Mit Hilfe von MCP können ChatBots/LLMs (*Lage Language Models*) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen.
