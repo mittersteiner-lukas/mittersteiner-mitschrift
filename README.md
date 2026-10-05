@@ -27,14 +27,22 @@ Falls bei der Installation sogenannte build `build scripts` nicht ausgeführt we
 
 2. Neuerlicher Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Scripts müssen mit `pnpm approved-builds` manuell freigegeben werden.
 
+---
+
+# Historische Entwicklung von WebDev
+
+WebDevelopment hat im Lauf der letzten rund 35 Jahre einige Evolutionsstufen durchlaufen:
+
+1. Static Websites (HTML, CSS, JavaScript) -initiale Phase des WebDevelopments, bei der Inhalte fest im HTML-Code verankert sind. Dominant in den 1990er-Jahren.
+
+2. Dynamische Websites (mit serverseitiger Programmiersprache - PHP, Python, NodeJS - und Datenbankanbindungen). Dominant in den 200er-Jahren.
+
+3. _Sigle-Page Application_ (SPA) - mit JavaScript-Frameworks erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handyapps bieten. - Dominant in den 2010er-Jahren.
+
 # VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
 
 VibeCoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View.
-Dort können alle Anpassungen der "_Coding Harness_" vorgenommen werden. Wir können unseren _Harmess_ mit verschiedenen Methoden anpassen:
+Dort können alle Anpassungen der "_Coding Harness_" vorgenommen werden. Wir können unseren _Harness_ mit verschiedenen Methoden anpassen:
 
 - **MCP-Server**
   MCP steht für _Model Context Protocoll_. Es ist ein Standard der von Antropic entwickelt wurde. Mit Hilfe von MCP können ChatBots/LLMs (_Lage Language Models_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen.
-
-- Dom: Document Object Model
-- Dom-Tree = Hierachie
-- Start der Hierachie nennt man Wurzel oder Root
