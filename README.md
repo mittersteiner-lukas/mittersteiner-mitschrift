@@ -37,7 +37,13 @@ WebDevelopment hat im Lauf der letzten rund 35 Jahre einige Evolutionsstufen dur
 
 2. Dynamische Websites (mit serverseitiger Programmiersprache - PHP, Python, NodeJS - und Datenbankanbindungen). Dominant in den 200er-Jahren.
 
-3. _Sigle-Page Application_ (SPA) - mit JavaScript-Frameworks erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handyapps bieten. - Dominant in den 2010er-Jahren.
+3. _Sigle-Page Application_ (SPA) - mit JavaScript-Frameworks (z.B. React, Vue, Angular, Svelte) erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handyapps bieten. - Dominant in den 2010er-Jahren. Um Handy-Apps möglichst nahme zu kommen, wurde der _Progressive Web App_ (PWA)-Standard entwickelt. Damit können Webapps auch offline funktionieren und auf bestimmte native Funktionen des Geräts zugreifen. Es gibt drei Vorraussetzungen, die eine PWA erfüllen muss, um als PWA zu gelten:
+   1. Die Webapp muss über ein Web App Manifest verfügen.
+   2. Die Webapp muss über Service Worker verfügen, die das Caching und die Offline-Funktionalität ermöglichen.
+   3. Die Webapp muss über HTTPS bereitgestellt werden, um Sicherheit und Integrität zu gewährleisten.
+   - Kompnenten Sind die wiederverwendbaren "Lego"-Bausteine in einer Webapp.
+
+- **Deklarative Programmierung** - der Javascript- und Templet(HTML)-Code beschreiben, wie die Benutzeroberfläche aussehen soll, anstatt die einzelnen Schritte zur Erstellung der Benutzeroberfläche aussehen zu definieren. Das Framework kümmert sich um die Umsetzung. Dabei kommt **Reaktivität** (_reactivity_) ins Spiel: Wenn sich der Zustand der Anwendung ändert, aktualisiert das Framework automatisch die Benutzeroberfläche (UI), um den neuen Zustand (_state_) wiederzuspiegeln. Wenn die Aktualiesirung auch in die andere Richtung funktioniert (d.h. wenn sich die Benutzeroberfläche ändert, weil der Benutzer mit ihr interagiert, und der Zustand (_state_) der Anwendung entsprechend aktualisiert wird), spricht man von bidirektionaler Datenbindung (_two-way data binding_). **Logikbausteine** (Schleifen zur Darstellung von Listen und Beningungen für das kondotionale Ein- und Ausblenden von UI-Elementen) werden in den Templates vom Framework in die eigentliche Benutzeroberfläche übersetzt. Komponenten können auch andere Kompnenten enthalten (verschachtelt werden), wodurch eine hierachische Struktur entsteht. Die Kommunikation zwischen Komponenten erfolgt über **Props** (Eigenschaften) und und **Events** (Ereignisse). Props sind Daten, die von einer übergeordneten Komponente an eine übergeordnete Komponente weitergegeben werden. Events sind BVenachrichtigungen, die con einer untergeordenten Komponente an eine Komponente gesendet werden, um auf Benutzerinteraktionen oder andere Ereignisse zu reagieren.
 
 # VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
 
