@@ -52,3 +52,17 @@ Dort können alle Anpassungen der "_Coding Harness_" vorgenommen werden. Wir kö
 
 - **MCP-Server**
   MCP steht für _Model Context Protocoll_. Es ist ein Standard der von Antropic entwickelt wurde. Mit Hilfe von MCP können ChatBots/LLMs (_Lage Language Models_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen.
+
+---
+
+# Frontend-Entwicklung
+
+## Ordnerstruktur
+
+![Ordnerstruktur einer Svelte anwendung](Ordnerstruktur.png)
+
+Der Ordner .vscode enhält Einstellungen für den VS-Code-Editor. Der Ordner node*modules enhält die Abhängigkeiten (\_Dependencies*) der Anwendung. Das sind jene Pakete, die bei der Entwicklung (_build time_) und bei der Ausführung (_runtime_) der Anwendung benötigt werden. Alle Abhängigkeiten werden in der Datei package.json aufgelistet. Außerdem enthält die Datei package.json Metadaten über die Anwendung (Name, Version, Autor, Lizenz, etc.) und Skripte, die bestimmte Aufgaben automatisieren (z.B. das Starten der Anwendung, das Erstellen einer Produktionsversion, das Testen der Anwendung, etc.). Der Ordner public enthält statische Dateien (Bilder, Fonts, Icons , etc.), die direkt vom Browser unter dem jeweiligen Pfad geladen werden können.
+
+![Unterstruktur des src-Ordners](image.png)
+
+Der Ordner `src` enthält den Quellcode der Anwendung. Die Dateien `app.css`, `app.svelte` und `main.js` sind die Einstiegspunkte der Anwendung (in diesem Fall eine SPA). Sie werden vom Browser als erstes geladen, wenn die entsprechende Website aufgrufen wird. Die Datei `app.css` enthält die globalen Styles der Anwendung. Die Datei `App.svelte`ist die Hauptkomponente der Anwendung, die andere Komponenten importiert und in der Benutzeroberfläche anzeigt. Die Datei `main.js` ist der Einstiegspunktfür das JavaScript / TypeScript der Anwendung. Sie initialisiert die Anwendung in der `App.svelte`und bindet sie an das HTML-Dokument (`index.html` im Root-Ordner).
